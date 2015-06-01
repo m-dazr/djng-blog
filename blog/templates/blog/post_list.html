@@ -1,14 +1,14 @@
 
 <html>
     <head>
-        <title>My Django blog</title>
+        <title>My new blog</title>
     </head>
     <body>
         <div>
             <h1><a href="">My Blog</a></h1>
         </div>
 
-        {% for post in posts %}
+        {% for Post in posts %}
             <div>
                 <p>published: {{ Post.published_date }}</p>
                 <h1><a href="">{{ Post.title }}</a></h1>
