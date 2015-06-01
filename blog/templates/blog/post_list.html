@@ -8,9 +8,10 @@
             <h1><a href="">My Blog</a></h1>
         </div>
 
+        <p>Where is the text????</p>
         {% for post in posts %}
             <div>
-                <p>Where is the text????</p>
+
                 <p>published: {{ post.published_date }}</p>
                 <h1><a href="">{{ post.title }}</a></h1>
                 <p>{{ post.text|linebreaks }}</p>
